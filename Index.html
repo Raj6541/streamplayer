@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stream Player</title>
+  </head>
+  <body>
+    <h1>Stream Player</h1>
+    <form>
+      <input type="text" id="url" placeholder="Enter Stream URL">
+      <button type="button" onclick="play()">Play</button>
+    </form>
+    <div id="player"></div>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/shaka-player@latest"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
